@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            background-color: #ffffff;
+        }
+        .footer {
+            background-color: #202040;
+            color: #ffffff;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content-section {
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 800px;
+        }
+        .content-section h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content-section form {
+            display: flex;
+            justify-content: center;
+        }
+        .content-section input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px 0 0 5px;
+            width: 250px;
+        }
+        .content-section input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            background-color: #3b74f2;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Fylo</h1>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="content-section">
+                <h1>All your files in one secure location, accessible anywhere.</h1>
+                <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and coworkers.</p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="submit" value="Get Started">
+                </form>
+            </div>
+
+            <div class="content-section">
+                <h1>Stay productive, wherever you are</h1>
+                <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                <p>Securely share files and folders with friends, family, and colleagues for live collaboration. No email attachments required!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>About Us | Jobs | Press | Blog</p>
+            <p>Contact Us | Terms | Privacy</p>
+            <div>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://x.com/home">Twitter</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
